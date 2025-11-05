@@ -1,0 +1,343 @@
+
+.newsletter-wrapper{
+   
+  
+    height: 46vh;
+    background-color:#DEECFF;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+   
+}
+/* @media screen and(max-width:500px) {
+    
+    .newsletter-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0% !important;
+    }
+
+} */
+
+.newsletter-left{
+      display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.inside-letter-wrapper{
+    font-family: 'Font 1',sans-serif;
+      display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.inside-letter-wrapper h1{
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.inside-letter-wrapper p{
+    font-size: 1rem;
+
+    
+}
+span{
+    color: #F9CE10BF;
+}
+.email-signup-sec{
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+  
+}
+/* .input-signup input{
+font-size: 1rem;
+font-weight: 500;
+ border: none;
+ height: 5.67vh;
+ width: 27.57vw;
+ padding-left: 10px;
+ 
+} */
+
+
+.input-signup input{
+padding: 12px;
+width: 25vw;
+font-size: 1.25rem;
+ text-transform: capitalize;
+ color: gray;
+border-top-left-radius: 12px !important;
+border-bottom-left-radius: 12px !important;
+border: none;
+
+}
+.subscribe-button button{
+   padding: 12px;
+     border: solid black 1px;
+     width: 10vw;
+ border-bottom-right-radius: 12px;
+ border-top-right-radius: 12px;
+ background-color:#19286A;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+ text-transform: capitalize;
+ font-size: 1.25rem;
+ color: white;
+ cursor: pointer;
+}
+.newsletter-right img{
+    height: 52.93vh;
+    width: 34.62vw;
+    padding-bottom: 35px;
+}
+.links-images{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+ 
+}
+.links-footer li{
+   list-style-type: none;
+   text-transform: capitalize;
+
+}
+.text-heading h1{
+    color: white;
+    font-size: 1.125rem;
+    font-family: serif;
+}
+.footer-three-sec{
+    background: #0E0F18;
+    color: #939393;
+    font-family: 'Font 1', sans-serif;
+  
+}
+.footer-top-inside{
+    display: flex;
+    gap: 45px;
+    padding-top: 30px;
+    justify-content: center;
+    padding-left: 10px;
+    
+    color:#939393 ;
+}
+.footer-top-inside-left{
+    display: flex;
+    flex-direction: column;
+    gap: 1.875rem;
+}
+@media screen and (max-width:501px){
+    html{
+        font-size: 60% !important;
+    }
+    .newsletter-wrapper{
+        display: flex;
+flex-direction: column;
+height: max-content;
+padding: 0% !important;
+      gap: 0% !important;
+      
+    }
+     .footer-top-inside{
+        display: flex;
+        flex-wrap: wrap;
+    }
+        .newsletter-right img{
+height: 30.93vh;
+    width: 25.62vw;
+  
+}
+    .play-store{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0% !important;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .footer-bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    text-align: center;
+    justify-content: center !important;
+    }
+    .footer-middle{
+        display: flex;
+        /* justify-content: center !important; */
+        align-items: center;
+        gap: 10px;
+      
+    }
+    .newsletter-left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 4%;
+    }
+.subscribe-button button,
+.input-signup input{
+    width: max-content;
+    padding: 0%;
+    height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+}
+
+@media screen and (max-width:838px) and ( min-width :501px){
+    html{
+        font-size: 70% ;
+    }
+    .footer-top-inside{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .play-store{
+        display: flex;
+        flex-direction: column;
+        padding: 0% !important;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .footer-bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: center !important;
+    }
+    .footer-middle{
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+        gap: 10px;
+      
+    }
+}
+
+.footer-top-right{
+    width: 21vw;
+    height: 25.56vh;
+    border: solid black 1px;
+    background-color: #19286A;
+    box-shadow: 10px 10px 1px #FFFFFF14;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+.text-heading-footer h1{
+    font-size: 1.125rem;
+    color: white;
+    font-family: 'poppins', ;
+    font-weight: 400;
+    text-transform: capitalize;
+ 
+}
+.text-center p{
+    font-size: 0.875rem;
+    color: white;
+    font-family: 'poppins',sans-serif;
+    text-transform: lowercase;
+}
+.footer-top-right-container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+padding: 10px 0px 10px 10px;
+}
+.play-store{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    gap: 20px;
+    padding-top: 30px;
+
+}
+.social-media-links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.play-store img{
+    height: 44px;
+    width: 150px;
+}
+.heading-footer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.heading-links h1{
+    text-transform: capitalize;
+    font-family: 'Font 2',sans-serif;
+    color: white;
+    font-size: 1rem;
+}
+.f-t-i-l-top{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.875rem;
+}
+.f-t-i-l-top h2{
+    font-size: 1rem;
+    text-align: justify;
+}
+.footer-top-useful-links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-top-ourservice-links{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.links-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    
+}
+.footer-middle{
+ display: flex;
+    justify-content: space-between;
+    border: dashed  #F9CC0E14;
+    margin: 60px 60px 0px 60px;
+    padding: 20px;
+    flex-wrap: wrap;
+
+}
+.footer-middle-right{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding:  20px 100px 20px 100px;
+    flex-wrap: wrap;
+   text-transform: capitalize;
+
+}
+.help-services-right-section{
+    display: flex;
+    gap: 20px;
+    font-size: 0.875rem;
+    flex-wrap: wrap;
+    
+}
+

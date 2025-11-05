@@ -1,0 +1,189 @@
+
+.blog-divs{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.latest-blog{
+    padding-top:10% ;
+ 
+}
+.blog-div{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    font-family: 'poppins',sans-serif;
+}
+.blog-img img{
+    height: 25.46vh;
+    width: 18.02vw;
+}
+.blog-content h1{
+    text-transform: capitalize;
+    font-size: 0.835rem;
+    color: #0E0F18;
+
+}
+.blog-date p{
+    color: #939393;
+    text-transform: capitalize;
+    text-align: start;
+    font-size: 0.7rem;
+}
+.review-h1  h1{
+    text-transform: capitalize;
+    font-size: 1.78rem;
+}
+.review-h2 h2{
+    font-size: 0.8rem;
+    color: #939393;
+}
+.review-heading{
+    display: flex;
+    flex-direction: column;
+    font-family: "poppins",sans-serif;
+    gap: 18px;
+}
+
+ .signup-button button:hover{
+    box-shadow: none;
+    background-color: #F9CC0E;
+ }
+.signup-button button{
+   background-color: white;
+    height: 6.67vh;
+    width: 12.43vw;
+border: solid 1px black;
+box-shadow: 5px 5px 1px #F9CE10BF;
+text-transform: capitalize;
+color: #0E0F18;
+cursor:pointer;
+font-size: 1rem;
+
+}
+.testimonial{
+    border: solid 1px #F4F7FF;
+    width: 30.58vw;
+    height: 35.61vh;
+    background-image: url("../assets/card.png"),
+      url("../assets/cardb.png");
+    background-repeat: no-repeat;
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'poppins',sans-serif;
+ box-shadow: 5px 5px #DEECFFA8;
+    background-position: 10% 20%;
+    
+}
+.customer-img img{
+  height: 6vh;
+}
+.testimonial-card{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-transform: capitalize;
+    padding: 10%;
+}
+.name p{
+  font-size: 1rem;
+  color: #0E0F18;
+}
+
+.card-content p{
+     font-size: 1.2rem;
+     color: #939393;
+     
+}
+.review-by{
+    display: flex;
+    gap: 20px;
+}
+.same-row{
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+@media (max-width: 768px) {
+  .review-h1 h1 {
+    font-size: 1.5rem;
+  }
+  .review-h2 h2 {
+    font-size: 0.9rem;
+  }
+ 
+  .card-content p {
+    font-size: 0.9rem;
+  }
+  /* .blog-img img {
+    width: 70vw;
+    height: auto;
+  } */
+  .blog-divs {
+    gap: 0px;
+    padding-bottom: 50px;
+  }
+  /* .blog-div {
+    width: 90%;
+  } */
+}
+
+/* ---------- Small Mobile ---------- */
+@media (max-width: 520px) {
+  .review-h1 h1 {
+    font-size: 1.2rem;
+  }
+  .card-content p {
+    font-size: 0.85rem;
+  }
+  .blog-content h1 {
+    font-size: 0.9rem;
+  }
+  .blog-img img {
+    width: 30vw;
+  }
+  .signup-button button{
+    height: 3vh;
+    width: max-content;
+    box-shadow: 3px 3px 1px #F9CC0E;
+    
+  }
+  .testimonial{
+     background-position: 1% 0%;
+
+  }
+  .name p{
+
+font-size: 0.89rem;
+
+  }
+  .review-by{
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .customer-img img{
+    height: 3.5vh;
+  }
+  
+  .review-heading{
+    gap: 5px;
+  }
+  
+.same-row{
+  padding: 10px;
+  gap: 20px;
+}
+  
+}
